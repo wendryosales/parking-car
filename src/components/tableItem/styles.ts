@@ -5,10 +5,16 @@ type ContainerProps = {
 }
 
 export const Tr = styled.tr`
-  display: flex;
-  background-color: #20212C;
-  padding: 10px;
-  border-radius: 10px;
-  margin-bottom: 10px;
-  align-items: center;
+  height: 30px;
+  margin-bottom: 2px;
+  text-align :center;
+
+  :hover {
+    background: #797DA6;
+  }
+
+  img {
+    cursor: pointer;
+    height: 30px;
+  }
 `;
